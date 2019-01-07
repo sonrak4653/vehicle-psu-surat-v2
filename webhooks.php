@@ -63,9 +63,8 @@ if (!is_null($events['events'])) {
 	
 	
 
-	// Make a POST Request to Messaging API to reply to sender
-	//$url = 'http://ellis.surat.psu.ac.th/Line-Messaging-API/register.php';	
-	$url = 'http://ellis.surat.psu.ac.th/Line-Messaging-API/staff_register.php';	
+	// Make a POST Request to Messaging API to reply to sender	
+	$url = 'http://ellis.surat.psu.ac.th/Line-Messaging-API-V2/staff_register.php';	
 
 	$headers = ['Content-Type' => 'application/x-www-form-urlencoded', 'charset' => 'utf-8'];
 
