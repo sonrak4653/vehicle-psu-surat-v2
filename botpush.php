@@ -10,7 +10,8 @@ $channelSecret = 'be71673fa018908c8928cb5a187a1714';
 
 $pushID = 'Ue8397db755c9256de543ed18d01dff28'; // my ID line
 
-$pushID = $_GET['pushID'];
+//$pushID = $_GET['pushID'];
+$pushID = 'Ue8397db755c9256de543ed18d01dff28';
 $ans_text = "บัญชีของท่านได้รับการยืนยันเรียบร้อยแล้ว";
 
 
